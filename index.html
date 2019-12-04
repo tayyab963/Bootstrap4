@@ -1,0 +1,151 @@
+<!Doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css" rel="stylesheet">
+    <title>Bootstrap 4 Project</title>
+   
+</head>
+<body>
+    <header class="bg-dark sticky-top">
+        <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a href="#"><h1 class="navbar-brand"><i class="lni-bootstrap"></i> Bootstrap 4 </h1></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Port">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#About">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact</a>
+                            </li>                                           
+                          </ul>                          
+                        </div>
+                </nav>
+        </div>
+    </header>
+    <section id="slider" class="text-center text-light">
+        <div id="slider-content" class="pt-6">
+        <img class="img-fluid rounded-circle mt-2" src="images/minion2.png" alt="" style="height:220px">
+        <h1>Bootstrap 4 Project</h1>
+        <div class="divider text-light">
+                <span class="divider-span"><i class="lni-star-filled"></i></span>
+            </div>
+        <p>Asp.Net MVC Developer, Front-End Developer</p>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div  id="Port" class="container text-center text-dark">
+            <h1 class="pt-5">Portfolio</h1>
+            <div class="divider">
+                <span class="divider-span"><i class="lni-star-filled"></i></span>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                <img src="images/p1.jpeg" alt="" class="img-fluid rounded">  
+                </div>
+                <div class="col-md-4">  
+                <img src="images/p2.jpeg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4">
+                <img src="images/p3.jpeg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4">     
+                <img src="images/p4.jpeg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4"> 
+                <img src="images/p5.jpeg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4">
+                <img src="images/p6.jpeg" alt="" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="mt-5 mb-5 text-light">
+        <div class="container" id="About">
+            <h1 class="text-center" >About Us</h1>
+            <div class="divider">
+                    <span class="divider-span"><i class="lni-star-filled"></i></span>
+                </div>
+            <div class="row">
+            <div class="col-md-6 col-12">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="col-md-6 col-12">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+            <a href="#" class="btn btn-outline-white">Free Download</a></div>
+            
+            </div>
+            
+        </div>
+    </section>
+    <section id="contact">
+        <div id="Contact">
+            <h1 class="text-center text-dark">Contact Me</h1>
+            <div class="divider text-dark">
+                    <span class="divider-span"><i class="lni-star-filled"></i></span>
+                </div>
+            <form action="" method="POST" class="container col-md-6">
+                <div class="form-group">
+                    <input type="text" placeholder="First Name" class="form-control">
+                </div>
+                <div class="form-group">
+                        <input type="text" placeholder="Last Name" class="form-control">
+                </div>
+                <div class="form-group">
+                        <input type="email" placeholder="Email" class="form-control">
+                </div>
+                <div class="form-group">
+                        <input type="tel" placeholder="Phone" class="form-control">
+                </div>
+                <div class="form-group">
+                <textarea name="Message" id="" cols="30" rows="10" class="form-control" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                <button type="submit" class="btn btn-secondary">Send</button>
+            </div>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-light-dark text-light">
+            <div class="container">
+                <div class="row">
+            <div class="col-md-4 col-12">
+                <h5>LOCATION</h5>
+                <address>H#04, st#02,Madrassa Street, Madrassa Jamia Muhammdia hanfia, afzaal puli, HarbancePura,<br /> Lahore.</address>
+            </div>
+            <div class="col-md-4 col-12">
+                <h5>AROUND THE WEB</h5>
+                <span><i class="lni-facebook"></i></span>
+                <span><i class="lni-twitter"></i></span>
+                <span><i class="lni-linkedin"></i></span>
+                <span><i class="lni-chrome"></i></span>
+            </div>
+            <div class="col-md-4 col-12">
+                <h5>ABOUT FREELANCERS</h5>
+                <p>Freelancer is a free to use <a href="#" class="text-dark">Click Here</a></p>
+            </div>
+        </div></div>
+    </footer>
+    <div id="footer-bottom" class="bg-dark text-light text-center">
+        <p>&COPY; Copyrights reserved 2019 | Designed by Muhammad Tayyab Qureshi</p>
+    </div>
+    
+</body>
+</html>
